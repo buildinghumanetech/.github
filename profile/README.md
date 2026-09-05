@@ -25,17 +25,13 @@ The same 8-principle framework also runs as a continuous evaluator inside deploy
 
 **Case study:** [Chief (née Storytell.ai)](https://humanetech.substack.com/p/how-storytellai-built-continuous) implemented this as weekly production monitoring, using a separate LLM as the evaluator against the HumaneBench rubric. It surfaced a consistent pattern — the product was answering questions without teaching the underlying concepts, creating dependency rather than capability — which led directly to a shipped feature ("teacher mode" / Expert Lens prompts) designed to build user skill instead of just delivering answers.
 
-### Certified Humane AI
-
-We're building an independent certification — [certifiedhumane.ai](https://certifiedhumane.ai) — for AI products that meet humane-design standards, so companies can demonstrate compliance rather than self-declare it. Source in [certifiedhumane-website](https://github.com/buildinghumanetech/certifiedhumane-website).
-
 ## Other repositories
 
 | Repo | What it is |
 |---|---|
 | [humane-tech-framework](https://github.com/buildinghumanetech/humane-tech-framework) | Practical framework and documentation for integrating humane design principles into real products |
 | [humanebench-website](https://github.com/buildinghumanetech/humanebench-website) | Source for humanebench.ai |
-| [certifiedhumane-website](https://github.com/buildinghumanetech/certifiedhumane-website) | Source for certifiedhumane.ai, our independent certification for AI products that prioritize wellbeing, privacy, and dignity |
+| [certifiedhumane-website](https://github.com/buildinghumanetech/certifiedhumane-website) | Source for certifiedhumane.ai, a prototype certification for AI products that prioritize wellbeing, privacy, and dignity |
 | [humane-ai-rater](https://github.com/buildinghumanetech/humane-ai-rater) | Community hackathon project — tooling for rating AI interactions against humane principles |
 | [coaching-wonder-into-ai](https://github.com/buildinghumanetech/coaching-wonder-into-ai) | Community hackathon project exploring how AI can support awe and wonder rather than distraction |
 | [ai-nutrition-facts](https://github.com/buildinghumanetech/ai-nutrition-facts) | Community hackathon project — a "nutrition label" concept for AI product transparency |
