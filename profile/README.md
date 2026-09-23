@@ -25,17 +25,28 @@ The same 8-principle framework also runs as a continuous evaluator inside deploy
 
 **Case study:** [Chief (née Storytell.ai)](https://humanetech.substack.com/p/how-storytellai-built-continuous) implemented this as weekly production monitoring, using a separate LLM as the evaluator against the HumaneBench rubric. It surfaced a consistent pattern — the product was answering questions without teaching the underlying concepts, creating dependency rather than capability — which led directly to a shipped feature ("teacher mode" / Expert Lens prompts) designed to build user skill instead of just delivering answers.
 
+## Also shipping
+
+### [humane-gate](https://github.com/buildinghumanetech/humane-gate)
+
+HumaneBench rubric v4, running as an advisory check on every pull request. It scores what a diff changes about what software says or does to a person. It blocks nothing. It posts one verdict (clear, review, discuss, or needs context) and asks a question when the diff alone can't answer it. Teams can see what it would have caught on their real PRs for thirty days before deciding whether it should ever have teeth.
+
+### [ai-bill-of-rights](https://github.com/buildinghumanetech/ai-bill-of-rights)
+
+A versioned, signable, open-source AI Bill of Rights, live at [ai-for-people.org](https://ai-for-people.org). Each version lives as markdown in this repo. Verified humans can sign it, and signers are listed publicly.
+
+### [defining-humane-ai](https://github.com/buildinghumanetech/defining-humane-ai)
+
+An open-source, versioned definition of "humane AI." Researchers, policy people, and practitioners draft v1.0 in a working session co-located with AIES 2026 in Malmö on Thursday, October 15th, 2026. The repo holds the definition, an open letter anyone can sign, a companion white paper, and an adoption map. CC BY 4.0. Call for participation: [buildinghumanetech.github.io/defining-humane-ai](https://buildinghumanetech.github.io/defining-humane-ai/).
+
 ## Other repositories
 
 | Repo | What it is |
 |---|---|
 | [humane-tech-framework](https://github.com/buildinghumanetech/humane-tech-framework) | Practical framework and documentation for integrating humane design principles into real products |
 | [humanebench-website](https://github.com/buildinghumanetech/humanebench-website) | Source for humanebench.ai |
+| [wonder-lab](https://github.com/buildinghumanetech/wonder-lab) | Source for the Wonder Lab site, our research initiative measuring whether AI interaction changes awe and self-transcendent experience |
 | [certifiedhumane-website](https://github.com/buildinghumanetech/certifiedhumane-website) | Source for certifiedhumane.ai, a prototype certification for AI products that prioritize wellbeing, privacy, and dignity |
-| [humane-ai-rater](https://github.com/buildinghumanetech/humane-ai-rater) | Community hackathon project — tooling for rating AI interactions against humane principles |
-| [coaching-wonder-into-ai](https://github.com/buildinghumanetech/coaching-wonder-into-ai) | Community hackathon project exploring how AI can support awe and wonder rather than distraction |
-| [ai-nutrition-facts](https://github.com/buildinghumanetech/ai-nutrition-facts) | Community hackathon project — a "nutrition label" concept for AI product transparency |
-| [humanebench-eval-hackathon](https://github.com/buildinghumanetech/humanebench-eval-hackathon) | Hackathon scaffolding for community-run HumaneBench evaluation sessions |
 
 *(This list reflects what's public on GitHub as of this writing — update it here as repos are added, archived, or renamed.)*
 
