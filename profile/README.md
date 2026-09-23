@@ -52,7 +52,7 @@ An open-source, versioned definition of "humane AI." Researchers, policy people,
 
 ## Get involved
 
-We welcome contributors — engineers, designers, researchers, and anyone who wants technology to treat people better. Most active collaboration happens around HumaneBench evaluations and our Humane Tech Hackathons.
+We welcome contributors — engineers, designers, researchers, and anyone who wants technology to treat people better. Most active collaboration happens around HumaneBench evaluations.
 
 - Start with the [humanebench](https://github.com/buildinghumanetech/humanebench) issues tagged "help wanted"
 - Read the [Humane Technology Framework](https://github.com/buildinghumanetech/humane-tech-framework) and its `CONTRIBUTING.md`
